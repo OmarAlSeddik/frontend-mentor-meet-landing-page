@@ -1,0 +1,25 @@
+:root {
+  --primary: #4d96a9;
+  --secondary: #855fb1;
+  --primary-light: #8fe3f9;
+  --secondary-light: #d9b8ff;
+  --black: #28283d;
+  --gray: #87879d;
+  --white: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+}
