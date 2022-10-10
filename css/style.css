@@ -6,6 +6,8 @@
   --black: #28283d;
   --gray: #87879d;
   --white: #fafafa;
+  --weight-regular: 500;
+  --weight-bold: 900;
 }
 
 * {
@@ -19,7 +21,60 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   min-height: 100vh;
   font-family: "Red Hat Display", sans-serif;
+  padding: 3rem 0 3.5rem;
+}
+
+.logo {
+  margin-bottom: 3.375rem;
+}
+
+.hero {
+  width: calc(100% + 2.5rem);
+  margin-bottom: 3rem;
+}
+
+.header {
+  margin: 0 1.5rem 1.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.1em;
+  font-weight: var(--weight-bold);
+  color: var(--black);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text {
+  margin: 0 1.5rem 2rem;
+  text-align: center;
+  color: var(--gray);
+  font-weight: var(--weight-regular);
+  line-height: 1.625em;
+}
+
+.button {
+  color: white;
+  border-radius: 1.8125rem;
+  font-weight: var(--weight-bold);
+  line-height: 1.625em;
+}
+.button--download {
+  padding: 1rem 2.5rem;
+  margin-bottom: 1rem;
+}
+.button--what-is-it {
+  padding: 1rem 1.8125rem;
+}
+.button--primary {
+  background-color: var(--primary);
+}
+.button--primary span {
+  color: var(--primary-light);
+}
+.button--secondary {
+  background-color: var(--secondary);
+}
+.button--secondary span {
+  color: var(--secondary-light);
 }/*# sourceMappingURL=style.css.map */
