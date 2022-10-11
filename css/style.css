@@ -122,7 +122,7 @@ footer {
   width: 1px;
 }
 
-.hero-section__heading {
+.hero__heading {
   margin: 0 1.5rem 1.5rem;
   font-size: 2.5rem;
   line-height: 2.75rem;
@@ -131,13 +131,19 @@ footer {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 @media (min-width: 40rem) {
-  .hero-section__heading {
+  .hero__heading {
     text-shadow: none;
     font-size: 3rem;
     line-height: 3rem;
   }
 }
-.hero-section__text {
+@media (min-width: 90rem) {
+  .hero__heading {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+.hero__text {
   margin: 0 1.5rem 2rem;
   color: var(--gray);
   font-weight: var(--weight-regular);
@@ -145,17 +151,17 @@ footer {
   max-width: 28.5625rem;
 }
 @media (min-width: 40rem) {
-  .hero-section__text {
+  .hero__text {
     margin: 0 0 2rem;
   }
 }
 @media (min-width: 90rem) {
-  .hero-section__text {
+  .hero__text {
     font-size: 1.125rem;
     max-width: 33.75rem;
   }
 }
-.hero-section__button-container {
+.hero__button-container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -164,25 +170,25 @@ footer {
   gap: 1rem;
 }
 @media (min-width: 40rem) {
-  .hero-section__button-container {
+  .hero__button-container {
     flex-direction: row;
   }
 }
 
-.first-section {
+.section {
   margin: 0 1.5rem 11rem;
 }
 @media (min-width: 40rem) {
-  .first-section {
+  .section {
     margin: 0 0 12rem;
   }
 }
 @media (min-width: 90rem) {
-  .first-section {
+  .section {
     margin: 0 0 11.5rem;
   }
 }
-.first-section__heading {
+.section__heading {
   color: var(--black);
   margin: 0 auto 2rem;
   font-size: 2rem;
@@ -191,12 +197,12 @@ footer {
   max-width: 27.8125rem;
 }
 @media (min-width: 40rem) {
-  .first-section__heading {
+  .section__heading {
     font-size: 2.5rem;
     line-height: 2.75rem;
   }
 }
-.first-section__subheading {
+.section__subheading {
   color: var(--primary);
   font-weight: var(--weight-bold);
   line-height: 1.625rem;
@@ -205,11 +211,11 @@ footer {
   margin-bottom: 1.5rem;
 }
 @media (min-width: 40rem) {
-  .first-section__subheading {
+  .section__subheading {
     margin-bottom: 1rem;
   }
 }
-.first-section__text {
+.section__text {
   font-weight: var(--weight-regular);
   line-height: 1.625em;
   color: var(--gray);
@@ -218,7 +224,7 @@ footer {
   max-width: 35.8125rem;
 }
 @media (min-width: 90rem) {
-  .first-section__text {
+  .section__text {
     font-size: 1.125rem;
     max-width: 33.75rem;
   }
