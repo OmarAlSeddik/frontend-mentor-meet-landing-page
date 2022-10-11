@@ -21,6 +21,7 @@
 }
 
 body {
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,4 +33,13 @@ body {
   @media (min-width: 90rem) {
     padding-top: 4rem;
   }
+}
+
+header,
+main,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }

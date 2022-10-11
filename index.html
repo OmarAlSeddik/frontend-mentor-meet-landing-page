@@ -19,80 +19,86 @@
     <title>Frontend Mentor | Meet landing page</title>
   </head>
   <body>
-    <img src="assets/logo.svg" alt="Logo" class="logo" />
-    <img src="assets/tablet/image-hero.png" alt="" class="mobile-hero" />
-    <main class="desktop-hero-container">
-      <img
-        src="assets/desktop/image-hero-left.png"
-        alt=""
-        class="desktop-hero desktop-hero--left"
-      />
-      <section class="hero-section">
-        <h1 class="hero-section__heading">
-          Group Chat<br />
-          for Everyone
-        </h1>
-        <p class="hero-section__text">
-          Meet makes it easy to connect with others face-to-face virtually and
-          collaborate across any device.
-        </p>
-        <div class="hero-section__button-container">
-          <button class="button button--primary button--download">
-            Download <span>v1.3</span>
-          </button>
-          <button class="button button--secondary button--what-is-it">
-            What is it?
-          </button>
-        </div>
+    <header>
+      <img src="assets/logo.svg" alt="Logo" class="logo" />
+      <img src="assets/tablet/image-hero.png" alt="" class="mobile-hero" />
+      <section class="desktop-hero-container">
+        <img
+          src="assets/desktop/image-hero-left.png"
+          alt=""
+          class="desktop-hero desktop-hero--left"
+        />
+        <section class="hero-section">
+          <h1 class="hero-section__heading">
+            Group Chat<br />
+            for Everyone
+          </h1>
+          <p class="hero-section__text">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <div class="hero-section__button-container">
+            <button class="button button--primary button--download">
+              Download <span>v1.3</span>
+            </button>
+            <button class="button button--secondary button--what-is-it">
+              What is it?
+            </button>
+          </div>
+        </section>
+        <img
+          src="assets/desktop/image-hero-right.png"
+          alt=""
+          class="desktop-hero desktop-hero--right"
+        />
       </section>
-      <img
-        src="assets/desktop/image-hero-right.png"
-        alt=""
-        class="desktop-hero desktop-hero--right"
-      />
+    </header>
+    <main>
+      <div class="section-break section-break--first">01</div>
+      <section class="gallery">
+        <img
+          src="assets/desktop/image-women-videochatting.jpg"
+          alt="women-video-chatting"
+          class="gallery__image"
+        />
+        <img
+          src="assets/desktop/image-woman-in-videocall.jpg"
+          alt="woman-in-video-call"
+          class="gallery__image"
+        />
+        <img
+          src="assets/desktop/image-men-in-meeting.jpg"
+          alt="men-in-meeting"
+          class="gallery__image"
+        />
+        <img
+          src="assets/desktop/image-man-texting.jpg"
+          alt="men-texting"
+          class="gallery__image"
+        />
+      </section>
+      <section class="first-section">
+        <p class="first-section__subheading">Built for modern use</p>
+        <h2 class="first-section__heading">
+          Smarter meetings, all in one place
+        </h2>
+        <p class="first-section__text">
+          Send messages, share files, show your screen, and record your meetings
+          — all in one workspace. Control who can join with invite-only team
+          access, data encryption, and data export.
+        </p>
+      </section>
     </main>
-    <div class="section-break section-break--first">01</div>
-    <section class="gallery">
-      <img
-        src="assets/desktop/image-man-texting.jpg"
-        alt="men-texting"
-        class="gallery__image"
-      />
-      <img
-        src="assets/desktop/image-men-in-meeting.jpg"
-        alt="men-in-meeting"
-        class="gallery__image"
-      />
-      <img
-        src="assets/desktop/image-woman-in-videocall.jpg"
-        alt="woman-in-video-call"
-        class="gallery__image"
-      />
-      <img
-        src="assets/desktop/image-women-videochatting.jpg"
-        alt="women-video-chatting"
-        class="gallery__image"
-      />
-    </section>
-    <section class="first-section">
-      <h3 class="first-section__subheading">Built for modern use</h3>
-      <h2 class="first-section__heading">Smarter meetings, all in one place</h2>
-      <p class="first-section__text">
-        Send messages, share files, show your screen, and record your meetings —
-        all in one workspace. Control who can join with invite-only team access,
-        data encryption, and data export.
-      </p>
-    </section>
-    <section class="second-section">
+    <footer class="footer">
       <div class="section-break section-break--second">02</div>
-      <h2 class="second-section__heading">Experience more together</h2>
-      <p class="second-section__text">
+      <h2 class="footer__heading">Experience more together</h2>
+      <p class="footer__text">
         Stay connected with reliable HD meetings and unlimited one-on-one and
         group video sessions.
       </p>
       <button class="button button--secondary button--download">
         Download <span>v1.3</span>
       </button>
-    </section>
+    </footer>
   </body>
 </html>
