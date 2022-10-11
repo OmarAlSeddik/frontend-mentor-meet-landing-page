@@ -26,3 +26,42 @@
     }
   }
 }
+
+.section-break {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--weight-bold);
+  color: var(--gray);
+  line-height: 1.625em;
+  background-color: var(--white);
+
+  &--first {
+    margin: 9.25rem 0 0;
+    position: relative;
+    @media (min-width: 48rem) {
+      margin: 10.25rem 0 0;
+    }
+  }
+
+  &--second {
+    position: absolute;
+    left: calc(50% - 3.5rem / 2);
+    top: calc(-3.5rem / 2);
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    background-color: var(--gray);
+    position: absolute;
+    left: 50%;
+    top: -5.25rem;
+    height: 5.25rem;
+    width: 1px;
+  }
+}
