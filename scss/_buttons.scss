@@ -1,0 +1,35 @@
+.button {
+  color: white;
+  border-radius: 1.8125rem;
+  font-weight: var(--weight-bold);
+  line-height: 1.625em;
+  cursor: pointer;
+
+  &--download {
+    padding: 1rem 2.5rem;
+  }
+
+  &--what-is-it {
+    padding: 1rem 1.8125rem;
+  }
+
+  &--primary {
+    background-color: var(--primary);
+    span {
+      color: var(--primary-light);
+    }
+    &:hover {
+      background-color: var(--primary-hover);
+    }
+  }
+
+  &--secondary {
+    background-color: var(--secondary);
+    span {
+      color: var(--secondary-light);
+    }
+    &:hover {
+      background-color: var(--secondary-hover);
+    }
+  }
+}

@@ -4,6 +4,8 @@
   --primary-light: #8fe3f9;
   --secondary-light: #d9b8ff;
   --primary-transparent: #4d96a9e6;
+  --primary-hover: #71c0d4;
+  --secondary-hover: #b18bdd;
   --black: #28283d;
   --gray: #87879d;
   --white: #fafafa;
@@ -27,7 +29,7 @@ body {
   text-align: center;
   padding-top: 3rem;
   overflow-x: hidden;
-  @media (min-width: 50rem) {
+  @media (min-width: 90rem) {
     padding-top: 4rem;
   }
 }
