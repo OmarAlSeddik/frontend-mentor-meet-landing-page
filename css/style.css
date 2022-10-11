@@ -8,6 +8,7 @@
   --secondary-hover: #b18bdd;
   --black: #28283d;
   --gray: #87879d;
+  --gray-transparent: #87879d40;
   --white: #fafafa;
   --weight-regular: 500;
   --weight-bold: 900;
@@ -82,7 +83,7 @@ footer {
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
-  border: 1px solid var(--gray);
+  border: 1px solid var(--gray-transparent);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,7 +114,7 @@ footer {
 .section-break::before {
   content: "";
   display: block;
-  background-color: var(--gray);
+  background-color: var(--gray-transparent);
   position: absolute;
   left: 50%;
   top: -5.25rem;

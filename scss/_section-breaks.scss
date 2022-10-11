@@ -2,7 +2,7 @@
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
-  border: 1px solid var(--gray);
+  border: 1px solid var(--gray-transparent);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +31,7 @@
   &::before {
     content: "";
     display: block;
-    background-color: var(--gray);
+    background-color: var(--gray-transparent);
     position: absolute;
     left: 50%;
     top: -5.25rem;
