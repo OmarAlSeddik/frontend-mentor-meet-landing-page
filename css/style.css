@@ -141,7 +141,7 @@ footer {
   .hero__heading {
     font-size: 4rem;
     line-height: 4rem;
-    margin-top: 2.75rem;
+    margin-top: 3rem;
   }
 }
 .hero__text {
@@ -385,6 +385,9 @@ footer {
     display: block;
   }
 }
+.desktop-hero-container .desktop-hero--left {
+  margin-top: -2rem;
+}
 .desktop-hero-container .desktop-hero--right {
-  margin-top: 2.75rem;
+  margin-top: 3.5rem;
 }/*# sourceMappingURL=style.css.map */
