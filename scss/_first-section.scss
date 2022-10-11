@@ -1,6 +1,6 @@
 .first-section {
   margin: 0 1.5rem 11rem;
-  @media (min-width: 24rem) {
+  @media (min-width: 40rem) {
     margin: 0 0 12rem;
   }
   @media (min-width: 90rem) {
@@ -14,7 +14,7 @@
     line-height: 2.25rem;
     font-weight: var(--weight-bold);
     max-width: 27.8125rem;
-    @media (min-width: 24rem) {
+    @media (min-width: 40rem) {
       font-size: 2.5rem;
       line-height: 2.75rem;
     }
@@ -27,7 +27,7 @@
     letter-spacing: 0.25rem;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
-    @media (min-width: 24rem) {
+    @media (min-width: 40rem) {
       margin-bottom: 1rem;
     }
   }
