@@ -26,6 +26,32 @@ body {
   font-family: "Red Hat Display", sans-serif;
   text-align: center;
   padding: 3rem 0 0;
+  overflow-x: hidden;
+}
+
+.button {
+  color: white;
+  border-radius: 1.8125rem;
+  font-weight: var(--weight-bold);
+  line-height: 1.625em;
+}
+.button--download {
+  padding: 1rem 2.5rem;
+}
+.button--what-is-it {
+  padding: 1rem 1.8125rem;
+}
+.button--primary {
+  background-color: var(--primary);
+}
+.button--primary span {
+  color: var(--primary-light);
+}
+.button--secondary {
+  background-color: var(--secondary);
+}
+.button--secondary span {
+  color: var(--secondary-light);
 }
 
 .logo {
@@ -98,32 +124,6 @@ body {
   width: 9.4375rem;
   height: 8.9375rem;
   border-radius: 0.5rem;
-}
-
-.button {
-  color: white;
-  border-radius: 1.8125rem;
-  font-weight: var(--weight-bold);
-  line-height: 1.625em;
-}
-.button--download {
-  padding: 1rem 2.5rem;
-  margin-bottom: 1rem;
-}
-.button--what-is-it {
-  padding: 1rem 1.8125rem;
-}
-.button--primary {
-  background-color: var(--primary);
-}
-.button--primary span {
-  color: var(--primary-light);
-}
-.button--secondary {
-  background-color: var(--secondary);
-}
-.button--secondary span {
-  color: var(--secondary-light);
 }
 
 .first-section {
