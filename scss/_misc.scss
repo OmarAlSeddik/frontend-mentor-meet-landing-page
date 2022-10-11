@@ -3,7 +3,7 @@
   @media (min-width: 40rem) {
     margin-bottom: 4rem;
   }
-  @media (min-width: 90rem) {
+  @media (min-width: 75rem) {
     margin-bottom: 4rem;
   }
 }
@@ -14,7 +14,7 @@
   @media (min-width: 40rem) {
     margin-bottom: 4.5rem;
   }
-  @media (min-width: 90rem) {
+  @media (min-width: 75rem) {
     display: none;
   }
 }
@@ -26,15 +26,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  @media (min-width: 90rem) {
+  @media (min-width: 75rem) {
     flex-direction: row;
     width: calc(100% + 4rem);
   }
 
   .desktop-hero {
     display: none;
-    @media (min-width: 90rem) {
+    @media (min-width: 75rem) {
       display: block;
+    }
+    &--right {
+      margin-top: 2.75rem;
     }
   }
 }
